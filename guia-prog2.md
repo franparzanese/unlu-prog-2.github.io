@@ -47,9 +47,9 @@ específico con las **fechas** para esta materia estará disponible próximament
 | [Práctica 1 - Recursividad](practicas/TP1_Recursividad.md)        | 17/04            |
 | [TP Integrador - Ruta de escape](practicas/TP_ruta_de_rescate.md) | 24/04            |
 | [Práctica 2 - TADs](practicas/TP2_TADs.md)                        | No se entrega    |
-| [Práctica 3 - Listas](practicas/TP3_Listas.md)                    | —                |
-| Práctica 4 - Pilas                                                | —                |
-| Práctica 5 - Colas                                                | —                |
+| [Práctica 3 - Listas](practicas/TP3_Listas.md)                    | 22/05            |
+| [Práctica 4 - Pilas](practicas/TP4_Pilas.md)                      | —                |
+| [Práctica 5 - Colas](practicas/TP5_Colas.md)                      | —                |
 | Práctica 6 - Árboles                                              | —                |
 | Práctica 7 - Tablas de hash                                       | —                |
 | Práctica 8 - Conjuntos                                            | —                |
