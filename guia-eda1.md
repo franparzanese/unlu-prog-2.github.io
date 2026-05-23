@@ -29,6 +29,7 @@ Los temas más avanzados (Árboles, Tablas Hash, Conjuntos) corresponden a **EDA
 ## Materiales y cronograma
 
 ### Guías para configurar el ambiente de trabajo
+
 * Instalación del compilador [C / CMake](material/configuracion-entorno.md).
 * Configuración de [Visual Studio Code](material/configuracion-vscode.md).
 * Guías de configuración y uso de [Git](material/git/index.md).
@@ -36,6 +37,7 @@ Los temas más avanzados (Árboles, Tablas Hash, Conjuntos) corresponden a **EDA
 * Introducción a [complejidad algorítmica](material/complejidad-algoritmica-introduccion.md).
 * Introducción a la [técnica de Backtracking](material/backtracking-introduccion.md).
 * [TAD Listas — operaciones, implementaciones y complejidad](material/listas-apunte.md).
+* [TAD Pilas - operaciones, implementaciones y complejidad](material/pilas-apunte.md).
 
 Podés acceder al material completo de prácticas y ejercicios desde la siguiente tabla. El cronograma de entregas
 específico con las **fechas** para esta materia estará disponible próximamente:
@@ -47,5 +49,5 @@ específico con las **fechas** para esta materia estará disponible próximament
 | [TP Integrador - Ruta de escape](practicas/TP_ruta_de_rescate.md) | 24/04            |
 | [Práctica 2 - TADs](practicas/TP2_TADs.md)                        | No se entrega    |
 | [Práctica 3 - Listas](practicas/TP3_Listas.md)                    | 22/05            |
-| [Práctica 4 - Pilas](practicas/TP4_Pilas.md)                      | —                |
-| [Práctica 5 - Colas](practicas/TP5_Colas.md)                      | —                |
+| [Práctica 4 - Pilas](practicas/TP4_Pilas.md)                      | 29/05            |
+| [Práctica 5 - Colas](practicas/TP5_Colas.md)                      | 05/06            |
