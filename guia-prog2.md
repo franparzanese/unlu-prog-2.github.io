@@ -38,6 +38,7 @@ Bienvenidas y bienvenidos a la cursada de **Programación II**.
 * Introducción a la [técnica de Backtracking](material/backtracking-introduccion.md).
 * [TAD Listas — operaciones, implementaciones y complejidad](material/listas-apunte.md).
 * [TAD Pilas - operaciones, implementaciones y complejidad](material/pilas-apunte.md).
+* [TAD Colas - operaciones, implementaciones y complejidad](material/colas-apunte.md).
 
 Podés acceder al material completo de prácticas y ejercicios desde la siguiente tabla. El cronograma de entregas
 específico con las **fechas** para esta materia estará disponible próximamente:
