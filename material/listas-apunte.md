@@ -22,15 +22,13 @@ El TAD define *qué* se puede hacer con una lista, sin decir *cómo* está guard
 |-----------|-------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
 | Crear     | `Lista l_crear()`                               | Devuelve una lista vacía lista para usar.                                                                                          |
 | ¿Vacía?   | `bool l_es_vacia(Lista)`                        | Indica si la lista no contiene ningún elemento.                                                                                    |
-| ¿Llena?   | `bool l_es_llena(Lista)`                        | Indica si la lista ya no puede recibir más elementos (relevante en implementaciones acotadas).                                     |
 | Longitud  | `int l_longitud(Lista)`                         | Devuelve la cantidad de elementos en la lista.                                                                                     |
-| Agregar   | `bool l_agregar(Lista, TipoElemento)`           | Inserta un elemento al final de la lista. Devuelve `false` si la lista está llena.                                                 |
+| Agregar   | `bool l_agregar(Lista, TipoElemento)`           | Inserta un elemento al final de la lista. Devuelve `false` si la operación no puede realizarse.                                    |
 | Insertar  | `bool l_insertar(Lista, TipoElemento, int pos)` | Inserta un elemento en la posición `pos`, desplazando hacia adelante los siguientes. Si `pos` supera la longitud, agrega al final. |
 | Borrar    | `bool l_borrar(Lista, int clave)`               | Elimina **todos** los elementos con la clave indicada. Devuelve `false` si no encontró ninguno.                                    |
 | Eliminar  | `bool l_eliminar(Lista, int pos)`               | Elimina el elemento en la posición `pos`.                                                                                          |
 | Buscar    | `TipoElemento l_buscar(Lista, int clave)`       | Devuelve el primer elemento cuya clave coincide, o `NULL` si no existe.                                                            |
 | Recuperar | `TipoElemento l_recuperar(Lista, int pos)`      | Devuelve el elemento en la posición `pos` sin eliminarlo, o `NULL` si `pos` es inválida.                                           |
-| Mostrar   | `void l_mostrar(Lista)`                         | Imprime el contenido de la lista por pantalla.                                                                                     |
 
 ### Sobre posiciones ordinales
 
@@ -198,7 +196,6 @@ $n$ = cantidad de elementos en la lista. El análisis asume **peor caso**.
 |---------------|:-------:|:--------:|:--------:|--------------------------------------------------------------------------------------------|
 | `l_crear`     | $O(N)$  |  $O(1)$  |  $O(N)$  | Arreglos y cursores alocan $N$ celdas; punteros sólo la cabecera.                          |
 | `l_es_vacia`  | $O(1)$  |  $O(1)$  |  $O(1)$  | Compara `cantidad == 0`.                                                                   |
-| `l_es_llena`  | $O(1)$  |  $O(1)$  |  $O(1)$  | Compara `cantidad == TAMANIO_MAXIMO`.                                                      |
 | `l_longitud`  | $O(1)$  |  $O(1)$  |  $O(1)$  | El contador `cantidad` se mantiene actualizado.                                            |
 | `l_agregar`   | $O(1)$  |  $O(n)$  |  $O(n)$  | Arreglos: inserta en `valores[cantidad]`. Punteros/cursores: recorre hasta el último nodo. |
 | `l_borrar`    | $O(n)$  |  $O(n)$  |  $O(n)$  | Recorre toda la lista para eliminar todas las ocurrencias; desplaza o reenlaza.            |
