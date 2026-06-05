@@ -20,7 +20,6 @@ Dado un `árbol binario` no vacío, se pide implementar funciones que retornen:
 - Una lista con los nodos terminales u hojas.
 - Una lista con todos los nodos interiores (los que no son ni hojas ni raíz)
 - Un booleano que determine si todas las hojas están en el mismo nivel.
-- Una lista con todas las posiciones de las ocurrencias de una clave dentro del arbol.
 
 Determinar la complejidad algorítmica de las soluciónes.
 
